@@ -1,0 +1,81 @@
+:root{
+    --primary-color: #5C7A6D;
+    --secondary-color: white;
+}
+body{
+    font-family: 'inter';
+}
+#course-title{
+    display: block;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212B23;
+    padding: 10px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    color: var(--primary-color);
+}
+img{
+    width: 120px;
+    height: auto;
+    padding-bottom: 10px;
+}
+main{
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.middle{
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+
+}
+.card h2{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    border: solid #212B23 1px;
+}
+.card{
+    border: solid #212B23 1px;
+    margin: 3px;
+}
+.text{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 8px;
+}
+footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0px;
+    padding: 10px;
+}
+footer p{
+    margin: 2px;
+}
+
+p a{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 3px;
+}
